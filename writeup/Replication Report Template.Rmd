@@ -1,0 +1,100 @@
+---
+title: "Replication of Study X by Sample & Sample (200x, Psychological Science)"
+author: "Replication Author[s] (contact information)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+##Introduction
+
+Despite the work of Joshua Greene and others, there is still some ambiguity around the difference between intuition and hot cognition and whether faster response time actually elicits these dispositions to moral questions. Does a slower response time actually control for the effects of intuition? This study epitomizes the approach the leading psychologists in the moral psychology field, like Dr. Greene and Fiery Cushman, have taken to understand morality. It also serves as an example of why Jonathan Haidt doesn’t fully fit into that camp and why others, like my advisor Bill Damon, think its an inauthentic measurement of morality. Personally, I’m interested in how transcendent views of self or commitments (like a sense of purpose) influence moral decision making. Part of that work will involve developing a better understanding of how emotion, reasoning, and intuition affect the valuation of possible responses in moral situations. Replicating the first experiment in this study and familiarizing myself with their methodology will help acquaint me to the field and expectations for research on moral decision making. I also hope to get a better idea for how to conduct my own experiments in the future.
+	Participants (secured through Mechanical Turk) will be presented with the Cognitive Reflection Test (CRT) either before or after being presented with one of three possible moral dilemmas on the survey platform Qualtrics. The anticipated result is that participants that are given the CRT prior to being presented with the moral dilemmas will demonstrate a more utilitarian response than the subjects that are presented with the CRT after. I would like to also add the time component of the second experiment the team performed, tools permitting. Adding the timed component would make this significantly harder unless I can find that functionality within Qualtrics. Having never used Mechanical Turk before, I also wonder about the demographic similarities to the sample used for this original experiment. Does Mechanical Turk attract a certain kind of survey responder? This study was also performed eight years ago--its quite possible there may be differences in results due to that time difference.  
+
+Link to project repository: https://github.com/psych251/paxton2012.git
+Link to original paper: https://onlinelibrary.wiley.com/doi/full/10.1111/j.1551-6709.2011.01210.x 
+
+
+##Methods
+
+###Power Analysis
+
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+
+###Planned Sample
+
+Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+
+###Materials
+
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+###Procedure	
+
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+
+###Analysis Plan
+
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+
+**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+
+###Differences from Original Study
+
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+
+#### Actual Sample
+  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+#### Differences from pre-data collection methods plan
+  Any differences from what was described as the original plan, or “none”.
+
+
+##Results
+
+
+### Data preparation
+
+Data preparation following the analysis plan.
+	
+```{r include=F}
+###Data Preparation
+
+####Load Relevant Libraries and Functions
+
+####Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Confirmatory analysis
+
+The analyses as specified in the analysis plan.  
+
+*Side-by-side graph with original graph is ideal here*
+
+###Exploratory analyses
+
+Any follow-up analyses desired (not required).  
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
