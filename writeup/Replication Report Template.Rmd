@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (200x, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of Reflection and Reasoning in Moral Judgment (2012, Cognitive Science)"
+author: "Brendan Fereday (bfereday@stanford.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
   html_document:
@@ -12,42 +12,96 @@ output:
 
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
-##Introduction
+## Introduction
 
 Despite the work of Joshua Greene and others, there is still some ambiguity around the difference between intuition and hot cognition and whether faster response time actually elicits these dispositions to moral questions. Does a slower response time actually control for the effects of intuition? This study epitomizes the approach the leading psychologists in the moral psychology field, like Dr. Greene and Fiery Cushman, have taken to understand morality. It also serves as an example of why Jonathan Haidt doesn’t fully fit into that camp and why others, like my advisor Bill Damon, think its an inauthentic measurement of morality. Personally, I’m interested in how transcendent views of self or commitments (like a sense of purpose) influence moral decision making. Part of that work will involve developing a better understanding of how emotion, reasoning, and intuition affect the valuation of possible responses in moral situations. Replicating the first experiment in this study and familiarizing myself with their methodology will help acquaint me to the field and expectations for research on moral decision making. I also hope to get a better idea for how to conduct my own experiments in the future.
-	Participants (secured through Mechanical Turk) will be presented with the Cognitive Reflection Test (CRT) either before or after being presented with one of three possible moral dilemmas on the survey platform Qualtrics. The anticipated result is that participants that are given the CRT prior to being presented with the moral dilemmas will demonstrate a more utilitarian response than the subjects that are presented with the CRT after. I would like to also add the time component of the second experiment the team performed, tools permitting. Adding the timed component would make this significantly harder unless I can find that functionality within Qualtrics. Having never used Mechanical Turk before, I also wonder about the demographic similarities to the sample used for this original experiment. Does Mechanical Turk attract a certain kind of survey responder? This study was also performed eight years ago--its quite possible there may be differences in results due to that time difference.  
+
+Participants (secured through Mechanical Turk) will be presented with the Cognitive Reflection Test (CRT) either before or after being presented with one of three possible moral dilemmas on the survey platform Qualtrics. The anticipated result is that participants that are given the CRT prior to being presented with the moral dilemmas will demonstrate a more utilitarian response than the subjects that are presented with the CRT after. I would like to also add the time component of the second experiment the team performed, tools permitting. Adding the timed component would make this significantly harder unless I can find that functionality within Qualtrics. Having never used Mechanical Turk before, I also wonder about the demographic similarities to the sample used for this original experiment. Does Mechanical Turk attract a certain kind of survey responder? This study was also performed eight years ago--its quite possible there may be differences in results due to that time difference.  
 
 Link to project repository: https://github.com/psych251/paxton2012.git
 Link to original paper: https://onlinelibrary.wiley.com/doi/full/10.1111/j.1551-6709.2011.01210.x 
+Link to Qualtrics survey: https://stanforduniversity.qualtrics.com/jfe/form/SV_5cdcPGasiw154i1
 
 
-##Methods
+## Methods
 
-###Power Analysis
+#### Power Analysis
 
-Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+The survey takes ___ to complete. In order to pay participates California minimum wage, each participant should get paid in order to stay within our GSE alloted funding of $100. 
 
-###Planned Sample
+The original effect size was d = 0.43. Given this effect size and the more conservative two-sided alternative, the following sample sizes are required for 80, 90, and 95 percent power: 
 
-Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+For 80% power: n=86
+For 90% power: n=115
+For 95% power: n=142
 
-###Materials
+In light of the original paper's 39% exlusion rate, 80% power would require 141 (140.98) participants. 
 
-All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+#### Planned Sample
+	Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
 
-###Procedure	
+#### Materials
+	All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
 
-Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+Cognitive Reflection Test (CRT) questions, quoted from Frederick (2005) and referenced in the original article:
 
-###Analysis Plan
+“(1) A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball.
+How much does the ball cost? _____ cents
 
-Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+(2) If it takes 5 machines 5 minutes to make 5 widgets, how long would it take
+100 machines to make 100 widgets? _____ minutes
 
-**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+(3) In a lake, there is a patch of lily pads. Every day, the patch doubles in size.
+If it takes 48 days for the patch to cover the entire lake, how long would it
+take for the patch to cover half of the lake? _____ days”
 
-###Differences from Original Study
+Three high conflict moral dilemmas, presented randomly before or after the CRT questions:
 
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+“John is the captain of a military submarine traveling underneath a large iceberg. An onboard explosion has caused the vessel to lose most of its oxygen supply and has injured a crewman who is quickly losing blood. The injured crewman is going to die from his wounds no matter what happens. The remaining oxygen is not sufficient for the entire crew to make it to the surface. The only way to save the other crew members is for John to shoot dead the injured crewman so that there will be just enough oxygen for the rest of the crew to survive.
+
+Enemy soldiers have taken over Jane’s village. They have orders to kill all remaining civilians. Jane and some of her townspeople have sought refuge in the cellar of a large house. Outside they hear the voices of soldiers who have come to search the house for valuables.
+Jane’s baby begins to cry loudly. She covers his mouth to block the sound. If she removes her hand from his mouth, his crying will summon the attention of the soldiers, who will kill her, her child, and the others hiding out in the cellar. To save herself and the others, she must smother her child to death.
+
+A runaway trolley is heading down the tracks toward five railway workmen, who will be killed if the trolley proceeds on its present course. Jane is on a footbridge over the tracks, in between the approaching trolley and the five workmen. Next to her on this footbridge is a lone railway workman, who happens to be wearing a large, heavy backpack. The only way to save the lives of the five workmen is for Jane to push the lone work- man off the bridge and onto the tracks below, where he and his large backpack will stop the trolley. The lone workman will die if Jane does this, but the five workmen will be saved.”
+
+The exact wording of the questions above were used in this replication.
+
+
+#### Procedure
+
+Quoted from original article:
+
+“Subjects were randomly assigned to complete the CRT either before (CRT-First condition) or after (Dilemmas-First condition) responding to the dilemmas. Subjects evaluated the moral acceptability of the utilitarian action with a binary response (YES ⁄ NO), followed by a rating scale (1 = Completely Unacceptable, 7 = Completely Acceptable). No time limits were imposed on responses. Subjects completed the CRT questions and read and responded to the dilemmas at their own pace. Subjects subsequently completed a brief set of demographic questions.”
+
+This replication followed this exact procedure.
+
+#### Analysis Plan
+
+*Exclude subjects that didn’t answer at least one question on the CRT correctly (look for maintaining proportionality of subjects across conditions after exclusion).
+
+*(The original study doesn’t mention an attention check, but maybe the CRT functions as this)
+
+*Calculate each individual's CRT score by assigning a 0 for each incorrect answer, 1 for each correct answer, and summing the three scores.
+
+*Calculate Crombach’s alpha to determine reliability across moral dilemmas.
+
+*Collapse each subjects moral judgments (YES/NO) to create a composite moral acceptability rating for each subject.
+
+*Linear regression of CRT-First condition on utilitarian moral judgments (YES/NO)
+
+*Create a collapsed moral judgment score using the Likert scale responses (moral acceptability rating).
+
+*Main Statistical Test: Between-subject t-test of CRT-First condition on individual acceptability rating.
+
+*Test correlation among subjects in the Dilemmas first condition to rule out variation due to trait reflectiveness. Confirm with a Fischer r-z test.
+
+*The control condition (Dilemmas-First Condition) didn’t include a task prior to the dilemmas, which could give credence to the objection that the reported effects of the CRT are merely effects of performing a non-specific task. To address this, calculate the correlation within the CRT-First condition, then compare this to the correlation observed in the Dilemmas-First condition.
+
+*Regress the CRT scores across the two conditions to address the objection that receiving the Dilemmas-First condition would influence subsequent CRT Performance
+
+### Differences from Original Study
+
+While both the original study and this replication utilize mTurk, there may be possible variance due to the lapse in time between the studies.
 
 ### Methods Addendum (Post Data Collection)
 
@@ -67,16 +121,228 @@ You can comment this section out prior to final report with data collection.
 
 Data preparation following the analysis plan.
 	
-```{r include=F}
+```{r}
 ###Data Preparation
 
 ####Load Relevant Libraries and Functions
 
-####Import data
+library(tidyverse)
+library(ggplot2)
+library(stringr)
+library(dplyr)
+library(ggthemes)
+library(umx) #For Cronbach's Alpha
+library(styler)
+library(lintr)
+library(qualtRics)
+library(psych)
+library(pwr)
+library(knitr)
+library(kableExtra)
+```
 
-#### Data exclusion / filtering
+```{r}
+RawData <- readSurvey("/Users/.../Desktop/PSYCH251/paxton2012/....csv")
 
-#### Prepare data for analysis - create columns etc.
+# Takes out first two rows, selects relevant columns, moves the CRT order to the front, renames columns, replaces numbers with strings for gender variable and turns crt question responses into binaries
+RawData <-RawData %>% 
+  select(Q1, Q2, Q3, Q26, Q9, Q10, Q34, Q36, Q38, Q40, Q46, Q48, Q12, Q13, Q15, Q16, Q42, Q44, Q17, Q18, Q18_3_TEXT, Q19, Q20, Q20_7_TEXT, Q21, Q28, `Random ID`, FL_10_DO, FL_9_DO, FL_21_DO, FL_22_DO, FL_23_DO, "Duration (in seconds)") %>%   
+  rename(crt_order = FL_10_DO, dilemma_order = FL_9_DO, education = Q21, gender = Q18, crt1 = Q1, crt2 = Q2, crt3 = Q3, crt4 = Q26, d1 = Q9, d1a = Q10, d1d = Q34, d1ad = Q36, d2 = Q12, d2a = Q13, d2d = Q38, d2ad = Q40, attention_check_1 = Q46, attention_check_2 = Q48, d3 = Q15, d3a = Q16, d3d = Q42, d3ad = Q44, ethnicity = Q20, duration = "Duration (in seconds)") %>%
+  mutate(gender, gender = ifelse(gender == 1, "male", gender)) %>%
+  mutate(gender, gender = ifelse(gender == 2, "female", gender)) %>%
+  mutate(gender, gender = ifelse(gender == 3, "other", gender))
+```
+
+
+```{r}
+# Creates a new variable for total CRT score and average CRT score, then filters out participants that didn't get at least one CRT question correct (crt_total = 0).
+RawData <-RawData %>% 
+  mutate(crt1, crt1 = ifelse(crt1 < 10, crt1 * 100, crt1)) %>%
+  mutate(crt1, crt1 = ifelse(crt1 == 10, 1, crt1)) %>%
+  mutate(crt1, crt1 = ifelse(crt1 != 1, 0, crt1)) %>%
+  mutate(crt2, crt2 = ifelse(crt2 == 10, 1, crt2)) %>%
+  mutate(crt2, crt2 = ifelse(crt2 != 1, 0, crt2)) %>%
+  mutate(crt3, crt3 = ifelse(crt3 == 25, 1, crt3)) %>%
+  mutate(crt3, crt3 = ifelse(crt3 != 1, 0, crt3)) %>%
+  mutate(crt4, crt4 = ifelse(crt4 == 8, 1, crt4)) %>%
+  mutate(crt4, crt4 = ifelse(crt4 != 1, 0, crt4)) %>%
+  mutate(crt_total = crt1 + crt2 + crt3 + crt4) %>%
+  mutate(mean_crt = (crt1 + crt2 + crt3 +crt4) / 4) %>%
+  mutate(attention_check = coalesce(attention_check_1, attention_check_2))
+  
+```
+
+
+```{r}
+#Creates new column showing mean acceptability
+RawData[is.na(RawData)] <- 0 
+RawData <- RawData %>% 
+  mutate(mean_acceptability = (d1a + d2a + d3a + d1ad + d2ad + d3ad) / 3) %>%
+  mutate(attention_check, attention_check = ifelse(attention_check == 4, 1, attention_check)) %>%
+  mutate(attention_check, attention_check = ifelse(attention_check != 1, 0, attention_check)) %>% 
+  select(crt_order, mean_acceptability, crt_total, mean_crt, attention_check, everything(), -attention_check_1, -attention_check_2) 
+```
+
+# Analysis
+
+```{r}
+## Chisquared Test for Pre and Post Exclusion Data
+
+# Creates an original data frame
+original <-RawData %>% 
+  group_by(crt_order) %>% 
+  summarise(n=n())
+
+# Creates a data frame with exclusions
+excluded <- RawData %>% 
+  group_by(crt_total) %>%
+    filter(!any(crt_total == 0)) %>% 
+  group_by(crt_order) %>% 
+  summarise(n=n())
+
+# Joins the two data frames
+original_excluded <- inner_join(original, excluded, by = "crt_order")
+
+# Chisquared Test
+chisq.test(original_excluded$n.x, original_excluded$n.y)
+```
+
+```{r}
+# Filters out subjects that didn't score at least 1 on the CRT
+RawData <- RawData %>% 
+  group_by(crt_total) %>%
+    filter(!any(crt_total == 0))
+```
+
+```{r}
+# Filters out subjects that didn't pass the attention check
+RawData <- RawData %>% 
+  group_by(attention_check) %>%
+    filter(!any(attention_check == 0))
+```
+
+```{r}
+# Filters out subjects based on time
+RawData <- RawData %>% 
+  group_by(duration) %>%
+    filter(!any(duration < 200))
+```
+
+```{r}
+#Calculates Cronbach's Alpha for inter-dilemma reliability
+
+cronbach_alpha <- RawData %>% 
+  select(d1a, d2a, d3a, d1ad, d2ad, d3ad) %>% 
+  alpha(check.keys = TRUE) #Why does this also include CRT total
+```
+
+```{r}
+# Regression
+crt_moral_reg <- lm(mean_acceptability ~ crt_total, data = RawData)
+coef(crt_moral_reg)
+
+```
+
+```{r}
+# t-test between crt_order and mean_acceptability
+t.test(RawData$mean_acceptability[RawData$crt_order == "CRT|FL_9"],
+       RawData$mean_acceptability[RawData$crt_order == "FL_9|CRT"])
+```
+
+```{r}
+# A different way of doing the same t-test as above, but I get different results. What does setting the variance as equal do?
+RawData %>% 
+  t.test(data = ., mean_acceptability ~ crt_order, var.equal = TRUE)
+```
+
+```{r}
+# This t-test is between crt scores and the two conditions to test whether responding to the dilemmas first influenced crt performance. If they did, it may have obliterated the correlation between crt scores and acceptability ratings.
+
+# RawData %>% 
+  # t.test(data = ., crt_total ~ crt_order)
+```
+
+```{r}
+# Scatterplot with jitter and point color as gender and size as duration
+ggplot(data = RawData, aes(x = jitter(crt_total), y = mean_acceptability)) +
+  geom_point(aes(color = gender, size = duration)) + 
+  stat_smooth(method = 'lm') +
+  labs(x = "Number of Correct CRT Items", y = "Mean Moral Acceptability Rating", title = "Mean Acceptability on CRT Total")
+```
+
+```{r}
+# CRT First; correlation between crt total and acceptability
+cor.test(RawData$crt_total[RawData$crt_order == "CRT|FL_9"], RawData$mean_acceptability[RawData$crt_order == "CRT|FL_9"])
+```
+
+```{r}
+# Correlation between both CRT conditions; Fisher r to z test
+crt_cor <- cor(RawData$crt_total[RawData$crt_order == "CRT|FL_9"], RawData$mean_acceptability[RawData$crt_order == "CRT|FL_9"])
+
+dilemma_cor <- cor(RawData$crt_total[RawData$crt_order == "FL_9|CRT"], RawData$mean_acceptability[RawData$crt_order == "FL_9|CRT"])
+
+paired.r(crt_cor, dilemma_cor, NULL, 10, 6,twotailed=TRUE)
+# is there an automatic way to feed in the group sizes of the two condition options?
+```
+
+```{r}
+# Shows difference in means between the two conditions
+RawData %>% 
+  group_by(crt_order) %>% 
+  summarise(mean(mean_acceptability))
+```
+
+```{r}
+# Shows mean acceptability by dilemma order
+RawData %>% 
+  group_by(dilemma_order) %>% 
+  summarise(mean_acceptability = mean(mean_acceptability)) %>% 
+  arrange(mean_acceptability)
+```
+
+```{r}
+# Shows crt total by attention check
+RawData %>% 
+  group_by(attention_check) %>% 
+  summarise(crt_total = mean(crt_total))
+```
+
+```{r}
+# Shows mean acceptability by gender
+RawData %>% 
+group_by(gender) %>%
+  summarise(mean_acceptability = mean(mean_acceptability))
+```
+
+```{r}
+# Shows CRT scores by gender
+RawData %>% 
+group_by(gender) %>%
+  summarise(crt_total = mean(crt_total))
+```
+
+```{r}
+# A basic plot
+ggplot(data = RawData, mapping = aes(x = gender, y = mean_acceptability)) +
+  geom_boxplot()
+```
+
+```{r}
+# Box plot for crt_order and mean_acceptability
+ggplot(data = RawData, mapping = aes(x = crt_order, y = mean_acceptability)) +
+   geom_boxplot()
+```
+
+```{r}
+# standard deviation of crt_order on mean_acceptability
+RawData %>% 
+  group_by(crt_order) %>% 
+  summarise(sd_acceptability = sd(mean_acceptability))
+```
+
+```{r}
+# Power
+pwr.t.test(d = 0.43, n=NULL, sig.level=0.05, power = 0.95, alternative="two.sided")
 ```
 
 ### Confirmatory analysis
